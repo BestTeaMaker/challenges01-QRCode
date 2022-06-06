@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Outfit', sans-serif;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  background-color: #D5E1EF;
+  height:100%;
+}
+
+.box {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+.code {
+  position: relative;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.qrcode {
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+  background-image: url("../images/image-qr-code.png");
+  background-size: cover;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.codeinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  order: 0;
+
+  flex-grow: 0;
+  width: 290px;
+  gap: 16px;
+}
+
+.codeheader {
+  font-family: Outfit;
+  font-weight:700;
+  font-size: 20px;
+  text-align: center;
+  color: #273750;
+  width: 250px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.codeparagraph{
+  width: 250px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #7F838A;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
